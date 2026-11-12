@@ -1,0 +1,11 @@
+{
+  "python": "3.12.6",
+  "pandas": "3.1.0",
+  "sklearn": "1.9.1",
+  "xgboost": "3.4.1",
+  "csv_sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_splits": 3,
+  "note": "Same holdout as previous experiments; not a new independent external validation."
+}

@@ -1,0 +1,6 @@
+{
+  "selected_name": "XGB_GridSearch",
+  "variant": "original",
+  "criterion": "highest mean training 3-fold ROC-AUC",
+  "threshold": 0.5
+}

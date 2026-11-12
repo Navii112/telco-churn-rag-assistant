@@ -1,0 +1,4 @@
+# 결과가 내장된 churn_llm_benchmark20.ipynb의 단독 분석 환경
+pandas>=2,<4
+matplotlib>=3.9,<4
+ipykernel>=6,<8

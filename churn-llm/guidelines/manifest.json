@@ -1,0 +1,13 @@
+{
+  "version": "demo-1.0",
+  "kind": "fictional_demo_only",
+  "notice": "포트폴리오 시연용 가상 상담 지침입니다. 실제 통신사 정책이나 효과가 검증된 유지 전략이 아닙니다.",
+  "documents": [
+    {"file": "01_principles.md", "rules": {}},
+    {"file": "02_contract.md", "rules": {"contract": {"feature": "Contract", "values": ["Month-to-month", "One year", "Two year"]}}},
+    {"file": "03_billing.md", "rules": {"billing": {"feature": "MonthlyCharges", "min": 0}, "payment": {"feature": "PaymentMethod", "values": ["Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"]}}},
+    {"file": "04_service.md", "rules": {"technical": {"feature": "InternetService", "values": ["DSL", "Fiber optic"]}, "no-internet": {"feature": "InternetService", "values": ["No"]}}},
+    {"file": "05_onboarding.md", "rules": {"onboarding": {"feature": "tenure", "max": 12}}},
+    {"file": "06_limits.md", "rules": {}}
+  ]
+}
